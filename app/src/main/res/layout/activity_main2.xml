@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:visibility="gone"
+        android:id="@+id/recycler_view_list_film"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:visibility="visible"
+        android:id="@+id/lnkosong"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:text="data kosong"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvtambahdata"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:text="Tap to add"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
